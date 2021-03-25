@@ -24,6 +24,12 @@ export const Discover = [
     link: "/myList",
     icon: AiFillHeart,
   },
+  {
+    index: 3,
+    name: "Login",
+    link: "/Login/1",
+    icon: AiFillSmile,
+  },
 ];
 
 const genrelist = [
