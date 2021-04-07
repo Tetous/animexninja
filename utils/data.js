@@ -28,7 +28,7 @@ export const Discover = [
     icon: AiFillHeart,
   },
   {
-    index: 3,
+    index: 4,
     name: "Spring 2021",
     link: "/season",
     icon: FcCloseUpMode,
