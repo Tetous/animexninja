@@ -36,7 +36,7 @@ const Sidenav = ({ onClick, show, visit }) => {
           />
         </div>
 
-        <NavContainer links={Discover} heading={"Discover"} />
+        <NavContainer links={Discover} heading={"Explore"} />
         <NavContainer links={Genre} heading={"Genres"} />
         <span
           className={`${theme.text.notselected} text-lg pb-10 px-4 w-full justify-start  flex items-center `}
