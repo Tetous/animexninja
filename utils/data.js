@@ -24,6 +24,12 @@ export const Discover = [
     link: "/myList",
     icon: AiFillHeart,
   },
+  {
+    index: 3,
+    name: "Spring 2021",
+    link: "/season",
+    icon: GiFlowerPot,
+  },
 ];
 
 const genrelist = [
@@ -77,3 +83,4 @@ export var Genre = genrelist.map((name, index) => ({
   link: `/genre/${name.replace(" ", "-")}/1`,
   icon: AiFillPlayCircle,
 }));
+
