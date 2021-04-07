@@ -26,7 +26,7 @@ const Navbar = ({ visit }) => {
         </div>
       </Link>
       <Toggle />
-      <NavContainer links={Discover} heading={"Discover"} />
+      <NavContainer links={Discover} heading={"Explore"} />
       <NavContainer links={Genre} heading={"Genres"} />
       <span
         className={`${theme.text.notselected} text-lg px-10  w-full justify-start  flex items-center `}
