@@ -5,6 +5,9 @@ import {
   AiFillStar,
 } from "react-icons/ai";
 
+import { FcCloseUpMode,} from "react-icons/fc";
+
+
 export const Discover = [
   {
     index: 1,
@@ -28,7 +31,7 @@ export const Discover = [
     index: 3,
     name: "Spring 2021",
     link: "/season",
-    icon: GiFlowerPot,
+    icon: FcCloseUpMode,
   },
 ];
 
@@ -83,4 +86,5 @@ export var Genre = genrelist.map((name, index) => ({
   link: `/genre/${name.replace(" ", "-")}/1`,
   icon: AiFillPlayCircle,
 }));
+
 
