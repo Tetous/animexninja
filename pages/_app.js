@@ -19,7 +19,7 @@ const Msg = ({ resumeId }) => {
         {resumeId[0]?.split("-").join(" ")}
       </span>
       <span>
-        To Continue Press <span className="text-yellow-300 text-xl ">here</span>
+        To Continue Watching, Press <span className="text-yellow-300 text-xl ">here</span>
       </span>
     </div>
   );
