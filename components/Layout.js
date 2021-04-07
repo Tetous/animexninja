@@ -5,7 +5,15 @@ const Layout = ({ children,title="Fast Anime" }) => {
     <div className="w-full justify-center items-center min-h-screen lg:h-full lg:w-10/12">
       <Head>
         <title>{title}</title>
-<meta name="google-site-verification" content="eMwVowoAMnT6_dVHIiA8F12nnffL8WH1HC_2X40Pgww" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GH8ZK8ZV56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GH8ZK8ZV56');
+</script>
       </Head>
       {children}
     </div>
